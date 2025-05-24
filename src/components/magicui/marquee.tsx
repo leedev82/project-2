@@ -6,7 +6,6 @@ export const Marquee = ({
   reverse,
   pauseOnHover = false,
   className,
-  ...props
 }: {
   children: React.ReactNode;
   reverse?: boolean;
@@ -16,16 +15,14 @@ export const Marquee = ({
   return (
     <div
       className={cn(
-        "group flex w-full overflow-hidden [--gap:1rem] relative",
+        "group relative flex w-full overflow-hidden",
         className
       )}
-      {...props}
     >
       <div
         className={cn(
-          "flex min-w-full shrink-0 items-center justify-around gap-[--gap] py-4",
-          "animate-[marquee_40s_linear_infinite]",
-          reverse && "animate-[marquee_40s_linear_infinite_reverse]",
+          "animate-scroll flex min-w-full flex-shrink-0 items-center justify-around gap-4 py-4",
+          reverse && "animate-scroll-reverse",
           pauseOnHover && "group-hover:[animation-play-state:paused]"
         )}
       >
@@ -33,9 +30,8 @@ export const Marquee = ({
       </div>
       <div
         className={cn(
-          "flex min-w-full shrink-0 items-center justify-around gap-[--gap] py-4",
-          "animate-[marquee_40s_linear_infinite]",
-          reverse && "animate-[marquee_40s_linear_infinite_reverse]",
+          "animate-scroll flex min-w-full flex-shrink-0 items-center justify-around gap-4 py-4",
+          reverse && "animate-scroll-reverse",
           pauseOnHover && "group-hover:[animation-play-state:paused]"
         )}
       >

@@ -6,14 +6,14 @@ module.exports = {
   theme: {
     extend: {
       keyframes: {
-        marquee: {
-          '0%': { transform: 'translateX(0%)' },
-          '100%': { transform: 'translateX(-100%)' }
+        scroll: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(calc(-100%))' }
         }
       },
       animation: {
-        'marquee': 'marquee var(--duration, 40s) linear infinite',
-        'marquee-reverse': 'marquee var(--duration, 40s) linear infinite reverse'
+        'scroll': 'scroll 25s linear infinite',
+        'scroll-reverse': 'scroll 25s linear infinite reverse'
       }
     },
   },
