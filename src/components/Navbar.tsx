@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <BriefcaseBusiness className="h-8 w-8 text-blue-600" />
-            <span className="ml-2 text-xl font-bold text-gray-900">Hirevetly</span>
+            <span className="ml-2 text-xl font-bold text-gray-900">Vetlyhire</span>
           </div>
           
           {/* Desktop Navigation */}

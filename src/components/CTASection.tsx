@@ -10,7 +10,7 @@ const CTASection: React.FC = () => {
           Ready to Transform Your Hiring Process?
         </h2>
         <p className="text-xl mb-10 max-w-2xl mx-auto text-blue-100">
-          Join thousands of companies that have revolutionized their recruitment using Hirevetly. Your perfect candidates are waiting.
+          Join thousands of companies that have revolutionized their recruitment using Vetlyhire. Your perfect candidates are waiting.
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">

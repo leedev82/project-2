@@ -27,14 +27,14 @@ const LogoCard = ({ url, name }: { url: string; name: string }) => {
 
 const testimonials = [
   {
-    quote: "Hirevetly helped us cut hiring time by 63%. We filled 12 senior roles in just 2 weeks - something that used to take months.",
+    quote: "Vetlyhire helped us cut hiring time by 63%. We filled 12 senior roles in just 2 weeks - something that used to take months.",
     metrics: "60% faster hiring • 85% acceptance rate",
     author: "Sarah Johnson",
     position: "HR Director, TechCorp",
     image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    quote: "The AI matching is incredibly accurate. Every candidate we've hired through Hirevetly has exceeded expectations.",
+    quote: "The AI matching is incredibly accurate. Every candidate we've hired through Vetlyhire has exceeded expectations.",
     metrics: "95% candidate quality • 8 roles filled",
     author: "Michael Chen",
     position: "Talent Acquisition, InnovateCo",
@@ -116,7 +116,7 @@ const SocialProofSection: React.FC = () => {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Real Results from Real Customers</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Join thousands of companies that have transformed their hiring process with Hirevetly.
+            Join thousands of companies that have transformed their hiring process with Vetlyhire.
           </p>
         </div>
         

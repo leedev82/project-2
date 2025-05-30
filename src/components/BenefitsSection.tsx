@@ -73,7 +73,7 @@ const BenefitsSection: React.FC = () => {
                 </li>
                 <li className="flex items-start">
                   <Check className="h-6 w-6 text-teal-400 mr-3 mt-0.5" />
-                  <span>93% of hires made through Hirevetly stay 12+ months</span>
+                  <span>93% of hires made through Vetlyhire stay 12+ months</span>
                 </li>
                 <li className="flex items-start">
                   <Check className="h-6 w-6 text-teal-400 mr-3 mt-0.5" />

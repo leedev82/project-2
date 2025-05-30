@@ -13,7 +13,7 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update the page title
-    document.title = "Hirevetly | AI-Powered Job Matching Platform";
+    document.title = "Vetlyhire | AI-Powered Job Matching Platform";
     
     // Add smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {

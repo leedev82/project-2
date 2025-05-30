@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center mb-4">
               <BriefcaseBusiness className="h-8 w-8 text-blue-500" />
-              <span className="ml-2 text-xl font-bold text-white">Hirevetly</span>
+              <span className="ml-2 text-xl font-bold text-white">Vetlyhire</span>
             </div>
             <p className="mb-4">
               Revolutionizing the recruiting industry with AI-powered candidate matching and seamless hiring workflows.
@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-center">
                 <Mail className="h-5 w-5 mr-3 text-gray-400" />
-                <span>info@Hirevetly.com</span>
+                <span>info@Vetlyhire.com</span>
               </li>
             </ul>
             
@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
         
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Hirevetly, Inc. All rights reserved.
+            &copy; {new Date().getFullYear()} Vetlyhire, Inc. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0 flex space-x-6">
             <a href="#" className="text-sm text-gray-500 hover:text-white">Privacy Policy</a>

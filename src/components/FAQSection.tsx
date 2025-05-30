@@ -43,11 +43,11 @@ const FAQSection: React.FC = () => {
       )
     },
     {
-      question: "Can Hirevetly integrate with our existing ATS?",
+      question: "Can Vetlyhire integrate with our existing ATS?",
       answer: (
         <>
           <p>
-            Yes! Hirevetly integrates seamlessly with all major Applicant Tracking Systems including Workday, 
+            Yes! Vetlyhire integrates seamlessly with all major Applicant Tracking Systems including Workday, 
             Greenhouse, Lever, and many more. We offer both standard API connections and custom integration services 
             for enterprise clients.
           </p>
@@ -61,7 +61,7 @@ const FAQSection: React.FC = () => {
       question: "How secure is our data on your platform?",
       answer: (
         <p>
-          Security is our top priority. Hirevetly is SOC 2 Type II certified and GDPR compliant. 
+          Security is our top priority. Vetlyhire is SOC 2 Type II certified and GDPR compliant. 
           We use enterprise-grade encryption for all data, both in transit and at rest. 
           Our platform undergoes regular security audits and penetration testing. 
           You maintain full ownership of your data, and we never share it with third parties.
@@ -106,7 +106,7 @@ const FAQSection: React.FC = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Frequently Asked Questions</h2>
           <p className="text-xl text-gray-600">
-            Everything you need to know about Hirevetly. Can't find the answer you're looking for? 
+            Everything you need to know about Vetlyhire. Can't find the answer you're looking for? 
             <a href="#" className="text-blue-600 font-medium ml-1">Contact our support team</a>.
           </p>
         </div>
