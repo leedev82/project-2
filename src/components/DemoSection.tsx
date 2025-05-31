@@ -1,9 +1,11 @@
 import React, { useState } from 'react';
 import Button from './Button';
-import { Play, ChevronRight } from 'lucide-react';
+import { Play, ChevronRight, X } from 'lucide-react';
+import { SkillsModal } from './SkillsModal';
 
 const DemoSection: React.FC = () => {
   const [showVideo, setShowVideo] = useState(false);
+  const [showSkillsModal, setShowSkillsModal] = useState(false);
   
   return (
     <section className="py-20 bg-white">
@@ -51,7 +53,7 @@ const DemoSection: React.FC = () => {
         <div className="mt-12 text-center">
           <h3 className="text-2xl font-bold text-gray-900 mb-4">Ready to transform your hiring process?</h3>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 mt-6">
-            <Button size="lg">
+            <Button size="lg" onClick={() => setShowSkillsModal(true)}>
               Book a Live Demo
               <ChevronRight className="ml-2 h-5 w-5" />
             </Button>
@@ -61,6 +63,11 @@ const DemoSection: React.FC = () => {
           </div>
         </div>
       </div>
+
+      <SkillsModal
+        isOpen={showSkillsModal}
+        onClose={() => setShowSkillsModal(false)}
+      />
     </section>
   );
 };
